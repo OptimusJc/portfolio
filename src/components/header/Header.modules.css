@@ -1,0 +1,7 @@
+nav a {
+	color: var(--beige) !important;
+}
+
+nav #navbarContent {
+	flex-grow: initial;
+}
