@@ -10,7 +10,7 @@ nav .container button .navbar-toggler-icon {
 	background-image: none;
 }
 
-nav .container button:hover .navbar-toggler-icon svg {
+nav .container button svg.navbar-toggler-icon {
 	color: var(--beige);
 	height: 2.5rem;
 	width: 2.5rem;
@@ -22,4 +22,8 @@ nav .container button.navbar-toggler:focus {
 
 nav #navbarContent ul li {
 	padding-block: 0.2rem;
+}
+
+nav #navbarContent ul li a {
+	font-size: 0.925rem;
 }

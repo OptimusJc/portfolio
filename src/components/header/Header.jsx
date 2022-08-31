@@ -18,9 +18,7 @@ const Header = () => {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span className="navbar-toggler-icon">
-						<HiMenuAlt4 />
-					</span>
+						<HiMenuAlt4 className="navbar-toggler-icon" />
 				</button>
 
 				<div className="collapse navbar-collapse" id="navbarContent">
