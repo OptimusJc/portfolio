@@ -5,3 +5,21 @@ nav a {
 nav #navbarContent {
 	flex-grow: initial;
 }
+
+nav .container button .navbar-toggler-icon {
+	background-image: none;
+}
+
+nav .container button:hover .navbar-toggler-icon svg {
+	color: var(--beige);
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+nav .container button.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+nav #navbarContent ul li {
+	padding-block: 0.2rem;
+}

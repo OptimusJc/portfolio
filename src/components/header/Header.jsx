@@ -1,3 +1,4 @@
+import { HiMenuAlt4 } from "react-icons/hi";
 import "./Header.modules.css";
 
 const Header = () => {
@@ -17,7 +18,9 @@ const Header = () => {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span className="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon">
+						<HiMenuAlt4 />
+					</span>
 				</button>
 
 				<div className="collapse navbar-collapse" id="navbarContent">
