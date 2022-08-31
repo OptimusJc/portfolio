@@ -1,6 +1,6 @@
 import "./Hero.modules.css";
 
-import my_image from "../../assets/my_image_blob.png";
+import my_image from "../../assets/my_transparent_image.png";
 
 const Hero = () => {
 	return (
@@ -25,6 +25,7 @@ const Hero = () => {
 							<a href="#">download cv</a>
 						</div>
 						<div className="image__section">
+							<span></span>
 							<img src={my_image} alt="" />
 						</div>
 					</div>
