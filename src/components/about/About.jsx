@@ -15,7 +15,7 @@ function About() {
 							</div>
 							<div className="about__section_info">
 								<p>
-									Hey! I'm Joseph Otieno a<strong> Web Developer </strong>
+									Hey there! I'm a<strong> Web Developer </strong>
 									located in Nairobi, Kenya. I've done remote projects for small
 									businesses and collaborated with talented people to create
 									digital products for both business and consumer use.
