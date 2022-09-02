@@ -3,6 +3,8 @@
 	--gray: #73777b;
 	--blue: #15133c;
 	--beige: #f1eee9;
+	--beige-comp-1: #fffcf7;
+	--beige-comp-2: #d9d6d2;
 
 	--body-font: "Montserrat", sans-serif;
 	--heading-font: "Libre Baskerville", serif;
@@ -20,4 +22,13 @@ body {
 .hero__background {
 	background-color: var(--blue);
 	color: var(--beige);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--heading-font);
 }
