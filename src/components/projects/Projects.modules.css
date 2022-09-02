@@ -1,0 +1,99 @@
+.projects__section {
+	background-color: var(--beige);
+	color: var(--blue);
+}
+
+.projects__section .col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-block: 2rem;
+}
+
+.projects__section .projects__section_container a .card-body p {
+	padding-bottom: 0;
+}
+
+.projects__section .projects__section_container a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.projects__section .projects__section_container a .card {
+	/* position: relative; */
+	color: var(--blue);
+	border: none;
+	outline: 1px solid var(--beige-comp-2);
+	background-color: var(--beige);
+	margin-block-end: 2rem;
+}
+
+.projects__section .projects__section_container a:hover .card {
+	outline: none;
+	box-shadow: 6px 16px 18px var(--beige-comp-2),
+		-6px -16px 20px var(--beige-comp-1);
+}
+/* 
+.projects__section .projects__section_container a:hover .card-img-top::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: var(--blue);
+	opacity: 0.4;
+} */
+
+/* .projects__section .projects__section_container a .card::after {
+	content: "Click here";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	color: var(--bs-white);
+	font-weight: bold;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+.projects__section
+	.projects__section_container
+	a
+	.card-body
+	.technologies_used {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: var(--orange);
+}
+
+@media (min-width: 48em) {
+	.projects__section .col .projects__section_container .card {
+		width: 340px;
+	}
+
+	.projects__section .col .projects__section_container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 64em) {
+	.projects__section .col .projects__section_container {
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.projects__section .col .projects__section_container .card {
+		width: 360px;
+	}
+}
+
+@media (min-width: 86em) {
+	.projects__section .col .projects__section_container a .card {
+		width: 400px;
+	}
+}
