@@ -46,6 +46,10 @@
 }
 
 @media (min-width: 64em) {
+	.skills__section .col .skills__section_container {
+		width: 80%;
+	}
+
 	.skills__section .col .skills__section_container p {
 		width: 200px;
 		height: 150px;
@@ -59,9 +63,12 @@
 	}
 }
 
-@media (min-width: 80em) {
+@media (min-width: 86em) {
+	.skills__section .col .skills__section_container {
+		width: 90%;
+	}
 	.skills__section .col .skills__section_container p {
-		width: 230px;
+		width: 240px;
 		height: 150px;
 	}
 }
