@@ -19,7 +19,9 @@
 }
 
 .about__section .col h3,
-.skills__section .col h3 {
+.skills__section .col h3,
+.projects__section .col h3,
+.otherProjects__section h3 {
 	padding-block: 2rem;
 	color: var(--blue);
 	font-weight: bold;
@@ -28,7 +30,9 @@
 }
 
 .about__section .col h3::before,
-.skills__section .col h3::before {
+.skills__section .col h3::before,
+.projects__section .col h3::before,
+.otherProjects__section .col h3::before {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -81,5 +85,12 @@
 	.about__section .about__section_container .about__section_info {
 		width: 600px;
 		line-height: 1.5rem;
+	}
+}
+
+@media (min-width: 86em) {
+	.about__section .about__section_container {
+		width: 100%;
+		justify-content: space-around;
 	}
 }
