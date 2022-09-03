@@ -1,0 +1,66 @@
+.contact__section,
+.contact__section .card {
+	background-color: var(--beige);
+}
+
+.contact__section .card {
+	border: none;
+	color: var(--blue);
+	padding-block: 1rem;
+}
+
+.contact__section .card .card-body h5.card-title {
+	font-weight: 600;
+}
+
+.contact__section .card .card-body h6.card-subtitle {
+	font-size: 0.625rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	color: var(--orange);
+	margin-block-end: 0.5rem;
+}
+
+.contact__section .card .card-body a.btn-primaryAlt {
+	text-decoration: none;
+	color: var(--blue);
+	font-weight: 500;
+	font-size: 0.9rem;
+	text-transform: capitalize;
+	border-radius: 2px;
+	padding: 0.8rem 1rem;
+	background: var(--orange);
+}
+
+@media (min-width: 48em) {
+	.contact__section .card .card-body {
+		text-align: center;
+		margin-inline: auto;
+		width: min(600px, 800px);
+	}
+
+	.contact__section .card .card-body h5.card-title {
+		margin-block: 1rem;
+	}
+	.contact__section .card .card-body a.btn-primaryAlt {
+		margin-block: 1rem;
+	}
+}
+
+@media (min-width: 64em) {
+	.contact__section {
+		padding-block: 2rem;
+	}
+
+	.contact__section .card .card-body h6.card-subtitle {
+		font-size: 0.8rem;
+		letter-spacing: 0.1rem;
+	}
+}
+
+@media (min-width: 86em) {
+	.contact__section {
+		padding-block: 4rem;
+	}
+}
