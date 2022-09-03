@@ -1,0 +1,38 @@
+.footer__section {
+	background-color: var(--beige);
+	border-top: 1px solid var(--gray);
+}
+
+.footer__section .col {
+	color: var(--blue);
+	font-size: 0.9rem;
+	padding-block: 1rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__section .col > * {
+	margin-block: 0;
+}
+
+.footer__section .col ul.footer__section_icons {
+	list-style: none;
+	padding-left: 0;
+	width: 150px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer__section .col ul.footer__section_icons a {
+	color: var(--blue);
+	cursor: pointer;
+}
+
+.footer__section .col ul.footer__section_icons a svg {
+	width: 1.0625rem;
+	height: 1.0625rem;
+}
