@@ -2,7 +2,7 @@ import "./Contact.modules.css";
 
 const Contact = () => {
 	return (
-		<section className="contact__section">
+		<section className="contact__section" id="contact">
 			<div className="container">
 				<div className="row">
 					<div className="col">

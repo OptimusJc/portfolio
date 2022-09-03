@@ -9,7 +9,7 @@ import bcu_medianetwork from "../../assets/projects/bcu_medianetwork.png";
 
 const Projects = () => {
 	return (
-		<section className="projects__section">
+		<section className="projects__section" id="projects">
 			<div className="container">
 				<div className="row">
 					<div className="col">

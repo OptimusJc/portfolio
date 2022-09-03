@@ -3,7 +3,7 @@ import about_image from "../../assets/my_image_blob.png";
 
 function About() {
 	return (
-		<section className="about__section">
+		<section className="about__section" id="about">
 			<div className="container">
 				<div className="row">
 					<div className="col">
