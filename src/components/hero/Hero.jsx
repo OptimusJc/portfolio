@@ -18,7 +18,7 @@ const Hero = () => {
 								Enthusiastic developer eager to contribute to team success
 								through hard work, attention to detail and excellent
 								organizational skills. Clear understanding of JavaScript, CSS,
-								HTML, React and currently training on Python. Motivated to
+								HTML, React and currently training in Python. Motivated to
 								learn, grow and excel in the entire fullstack development
 								module.
 							</p>
