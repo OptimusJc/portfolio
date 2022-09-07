@@ -1,6 +1,7 @@
 import "./Hero.modules.css";
 
 import my_image from "../../assets/my_transparent_image.png";
+import my_resume from "../../assets/JOSEPH_OTIENO.pdf";
 
 const Hero = () => {
 	return (
@@ -22,7 +23,7 @@ const Hero = () => {
 								module.
 							</p>
 							<p className="title">Fullstack Web Developer</p>
-							<a href="#">download cv</a>
+							<a href={my_resume} download>download cv</a>
 						</div>
 						<div className="image__section">
 							<span></span>
